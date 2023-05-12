@@ -1,0 +1,131 @@
+
+ 
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}   
+
+
+body {
+    background-color: mediumslateblue;
+    color:black;
+    background-color: #c5c3c3;
+    background-color: #100101;
+    background-color: #c5c3c3;
+   
+font-family: 'Oswald', sans-serif;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+
+
+}
+
+ul {
+    list-style: none;
+
+}
+.conteiner {
+    width: 90%;
+    margin: auto;
+}
+
+/* Navegacion*/
+.nav-main  {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0; 
+}
+
+.nav-brand {
+    width: 200px;
+
+}
+/*navegacion izquierda*/
+.nav-main ul {
+    display: flex;
+
+}
+
+.nav-main ul li {
+    padding: 10px;
+
+
+}
+.nav-main ul li a {
+    padding: 10px;
+}
+
+.nav-main ul li a:hover {
+border-bottom: 10px solid #ffff;
+}
+
+ .nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+
+ }
+
+ /*showcase*/
+ 
+
+ .btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    
+
+ }
+
+ .btn:hover {
+    opacity: 0.9;
+  }
+
+  .showcase {
+    width: 100%;
+    height: 550px;
+    background: url(./img/lapiz.jpg) no-repeat center center/cover;
+padding-bottom: 50px;
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: flex-end;
+margin-bottom: 20px;
+color: black;
+
+ }
+
+ .showcase h2,
+ .showcase p {
+    margin-bottom: 10px;
+ }
+
+ .showcase .btn{
+    margin-top: 20px;
+ }
+
+
+ /*news card*/
+ .news-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 70px 0;
+}
+
+ .news-cards img {
+    width: 100%;
+    height: 180px;
+ }
