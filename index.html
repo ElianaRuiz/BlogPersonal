@@ -90,9 +90,37 @@
 
 <!--news cards-->
 
+
+<div>
+    <h2>Calculadora</h2>
+
+<input type="number" id="valor1" placeholder="Primer valor">
+<input type="number" id="valor2" placeholder="Segundo valor">
+<br>
+<button onclick="calcularOperacion(1)">Sumar</button>
+<button onclick="calcularOperacion(2)">Restar</button>
+<button onclick="calcularOperacion(3)">Multiplicar</button>
+<button onclick="calcularOperacion(4)">Dividir</button>
+
+<p id="resultado"></p>
+</div>
+<div class="goku">
+    <h2>Imagen con efecto al pasar el mouse</h2>
+
+    <img id="miImagen" src="/img/goku.png" onmouseover="cambiarImagen()" onmouseout="restaurarImagen()" alt="Mi imagen">
+    
+
+     
+</div>
+<div>
+    <body onload="avanzaReloj()">
+        reloj funcionando...
+        <form name="form_reloj">
+            <input type="text" name="reloj" size="10" onfocus="window.document.form_reloj.reloj.blur()"">
+        </form>
+    
 </div>
 
-</div>
 
 </body>
 </html>
