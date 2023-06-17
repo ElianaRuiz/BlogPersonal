@@ -37,11 +37,11 @@ function calcularOperacion(codigoOperacion) {
   // * PUNTO 2
   function cambiarImagen() {
     var imagen = document.getElementById("miImagen");
-    imagen.src = "/img/gokussj.png";
+    imagen.src = "/img/lapiz.jpg";
   }
   function restaurarImagen() {
     var imagen = document.getElementById("miImagen");
-    imagen.src = "/img/goku.png";
+    imagen.src = "/img/foto mia.png";
   }
   //* PUNTO 3
   function avanzaReloj(){
